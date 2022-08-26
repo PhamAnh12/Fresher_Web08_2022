@@ -1,0 +1,28 @@
+.btn__container{
+    width: 120px;
+}
+.btn {
+    border: none;
+    background-color: var(--primary-color);
+    border-radius: 4px;
+    height: 40px;
+    min-width: 100px;
+    color: var( --white-color);
+    display:flex;
+    align-items: center;
+    padding-right: 16px ;
+    cursor: pointer;
+    
+   
+}
+
+.btn:hover {
+    background-color: var(--bnt-hover);
+}
+
+.btn--perssed {
+    background-color: #01B075;
+}
+.btn__add-container{
+    display: flex;
+}

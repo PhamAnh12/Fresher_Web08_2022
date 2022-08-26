@@ -1,0 +1,28 @@
+@import url(../cukcuk/navbar.css );
+@import url(../cukcuk/header.css );
+@import url(../cukcuk/content.css);
+.container{
+    display: grid;
+    grid-template-columns: 225px  auto;
+    height:100%;
+}
+.navbar{
+ 
+  grid-row-start: 1;
+  grid-row-end: 3;
+  
+}
+.main{
+ 
+   grid-row-start: 1;
+   grid-row-end: 3;
+}
+.header{
+    height: 48px;
+   
+}
+.content{
+   height: calc(100% - 48px);
+   
+}
+

@@ -1,4 +1,9 @@
-
+@import url(./base/button.css);
+@import url(./base/icon.css);
+@import url(./base/input.css);
+@import url(./base/select.css);
+@import url(./base/table.css);
+@import url(./base/page.css);
 :root {
     --primary-color: #019160;
     --bnt-hover: #2fbe8e;
@@ -23,12 +28,12 @@ body {
 
 @font-face {
     font-family: GoogleSans-Regular;
-    src: url(../../font/GoogleSans-Regular.otf);
+    src: url(../font/GoogleSans-Regular.otf);
 }
 
 @font-face {
     font-family: GoogleSans-Medium;
-    src: url(../../font/GoogleSans-Medium.otf);
+    src: url(../font/GoogleSans-MediumItalic.otf);
 }
 .align__center{
     text-align: center;
